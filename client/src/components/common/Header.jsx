@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import "./header.css";
-import Post from "../Post/Post";
+import { useDispatch, useSelector } from "react-redux";
+import { userLogout } from "../redux/action/user";
 const Header = () => {
-  const [show, setShow] = useState(false);
   const sidebar = () => {
     document.body.classList.toggle("toggle-sidebar");
   };
+
+  const dispatch=useDispatch();
+
+  const userlogout=()=>{
+dispatch(userLogout());
+  }
+
+  const {isAuthenticated}=useSelector(state=>state.user);
   return (
     <main>
       <header
@@ -248,7 +256,7 @@ const Header = () => {
                     href="#ok"
                   >
                     <i className="bi bi-box-arrow-right"></i>
-                    <span>Sign Out</span>
+                    <span onClick={userlogout}>Sign Out</span>
                   </a>
                 </li>
               </ul>
@@ -259,8 +267,11 @@ const Header = () => {
 
       <aside id="sidebar" className="sidebar">
         <ul className="sidebar-nav" id="sidebar-nav">
-          <li className="nav-item">
-            <a className="nav-link " href="/">
+
+          {
+            isAuthenticated ? (<>
+             <li className="nav-item">
+            <a className="nav-link " href="/home">
               <i className="bi bi-house-fill"></i>
               <span>Home</span>
             </a>
@@ -286,7 +297,27 @@ const Header = () => {
               <span>Buy</span>
             </a>
           </li>
+            </>):
+            (<>
+             <li className="nav-item">
+            <a className="nav-link " href="/login">
+              <i class="bi bi-box-arrow-in-right"></i>
+              <span>sign up</span>
+            </a>
+          </li>
 
+          <li className="nav-item">
+            <a className="nav-link " href="/register">
+              <i class="bi bi-box-arrow-in-right"></i>
+              <span>sign in</span>
+            </a>
+          </li>
+            </>)
+          }
+         
+
+         
+{/* 
           <li className="nav-item">
             <a className="nav-link " href="/chat">
               <i class="bi bi-envelope-fill"></i>
@@ -300,28 +331,13 @@ const Header = () => {
               <span>AI Assistance</span>
             </a>
           </li>
-      
+
           <li className="nav-item">
-            <a className="nav-link " href="/" >
-            <i class="bi bi-gear-fill"></i>
+            <a className="nav-link " href="/">
+              <i class="bi bi-gear-fill"></i>
               <span>Chatbot</span>
             </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link " href="/login">
-            <i class="bi bi-box-arrow-in-right"></i>
-              <span>Login</span>
-            </a>
-          </li>
-
-          <li className="nav-item">
-            <a className="nav-link " href="/register">
-            <i class="bi bi-box-arrow-in-right"></i>
-              <span>Registration</span>
-            </a>
-          </li>
-
-         
+          </li> */}
         </ul>
       </aside>
     </main>

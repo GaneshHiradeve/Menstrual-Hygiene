@@ -4,12 +4,12 @@ import "./home.css"
 const Home = () => {
   return (
     <div>
-       <main id="main" class="main">
+       <main id="main" className="main">
      
-     <section id="hero" class="hero d-flex align-items-center section-bg" style={{marginTop:"-7rem"}}>
-    <div class="container">
-      <div class="row justify-content-between gy-5">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+     <section id="hero" className="hero d-flex align-items-center section-bg" style={{marginTop:"-7rem"}}>
+    <div className="container">
+      <div className="row justify-content-between gy-5">
+        <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
           <h3 data-aos="fade-up">Menstrual Hygiene:
 <br/>Making menstruation a normal fact of life</h3>
           <p >So dump that orthodox thinking and lets make it a new and  progressive<br/>
@@ -17,13 +17,13 @@ const Home = () => {
         <br />  Join us and let's together become Menstrual Meviricks.
           </p>
    
-          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#features" class="btn-book-a-table">More Info...</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#features" className="btn-book-a-table">More Info...</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
-        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="assets/img/mmlogo.png" class="img-fluid" alt="" data-aos="zoom-out"  data-aos-delay="300"/>
+        <div className="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/mmlogo.png" className="img-fluid" alt="" data-aos="zoom-out"  data-aos-delay="300"/>
         </div>
       </div>
     </div>
@@ -31,16 +31,16 @@ const Home = () => {
 
 
 
-  <section id="features" class="features" style={{marginTop:"2rem"}}>
-      <div class="container">
+  <section id="features" className="features" style={{marginTop:"2rem"}}>
+      <div className="container">
 
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up" style={{display:"flex",justifyContent:"space-between"}}>
+        <div className="row gy-4 align-items-center features-item" data-aos="fade-up" style={{display:"flex",justifyContent:"space-between"}}>
 
-          <div class="col-md-5">
-            <img src="https://media.istockphoto.com/id/1132946013/vector/vector-template-illustration.jpg?s=612x612&w=0&k=20&c=pVm4oTEv3hko1RstDae7vX-VIOFm3KjnWOARbTbAhFc=" class="img-fluid" alt=""/>
+          <div className="col-md-5">
+            <img src="https://media.istockphoto.com/id/1132946013/vector/vector-template-illustration.jpg?s=612x612&w=0&k=20&c=pVm4oTEv3hko1RstDae7vX-VIOFm3KjnWOARbTbAhFc=" className="img-fluid" alt=""/>
           </div>
-          <div class="col-md-7" style={{maxWidth:"600px"}}>
-            <h3 style={{fontWeight:"bold",textAlign:"center"}} class="million">Millions of women and girls around the world are stigmatise and discriminated just because they menstruate.</h3>
+          <div className="col-md-7" style={{maxWidth:"600px"}}>
+            <h3 style={{fontWeight:"bold",textAlign:"center"}} className="million">Millions of women and girls around the world are stigmatise and discriminated just because they menstruate.</h3>
             <p style={{color:"grey",textAlign:"center"}}>
             It’s not acceptable that because of a natural bodily function women and girls continue to be prevented from getting an education, earning an income and fully and equally participating in everyday life.
             </p>
@@ -55,44 +55,44 @@ const Home = () => {
         </section>
 
 
-    <section id="why-us" class="why-us section-bg" style={{margin:"10rem 0"}}>
-      <div class="container" data-aos="fade-up">
+    <section id="why-us" className="why-us section-bg" style={{margin:"10rem 0"}}>
+      <div className="container" data-aos="fade-up">
 
-        <div class="row gy-4">
+        <div className="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="why-box">
+          <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div className="why-box">
               <h3>Why Choose Menstrual Mavericks?</h3>
               <p>
               Menstrual Mavericks target many problems at a time.We have the feature of Expert Guidance.
               We have the feature of AI assistance.We also have the hygiene products with greatest discount throught the world.Also we have the large community where the users can interract with each other.So be wise,choose us..
               </p>
-              <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              <div className="text-center">
+                <a href="#/" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-8 d-flex align-items-center">
-            <div class="row gy-4">
+          <div className="col-lg-8 d-flex align-items-center">
+            <div className="row gy-4">
 
-              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <i class="bi bi-person-check-fill"></i>                  <h4>Expert and AI Guidance</h4>
+              <div className="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                <div className="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i className="bi bi-person-check-fill"></i>                  <h4>Expert and AI Guidance</h4>
                   <p>We have our highly skilled experts in order to guide our consumers. Assistance of AI  also add on the service</p>
                 </div>
               </div>
 
-              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <i class="bi bi-chat-right-dots-fill"></i>                  <h4>Interaction with the Comunity</h4>
+              <div className="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div className="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i className="bi bi-chat-right-dots-fill"></i>                  <h4>Interaction with the Comunity</h4>
                   <p>You can ask any question to the community or take the help of previously asked question</p>
                 </div>
               </div>
 
-              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <i class="bi bi-cart-check"></i>                  <h4>Highly Discounted Hygiene Products</h4>
+              <div className="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div className="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i className="bi bi-cart-check"></i>                  <h4>Highly Discounted Hygiene Products</h4>
                   <p>We are having a variety of menstrual hygiene products with great discounts.</p>
                 </div>
               </div>
@@ -108,48 +108,48 @@ const Home = () => {
 
 
 
-    <section id="menu" class="menu" style={{marginTop:"-7rem"}}>
-      <div class="container" data-aos="fade-up">
+    <section id="menu" className="menu" style={{marginTop:"-7rem"}}>
+      <div className="container" data-aos="fade-up">
 
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+        <div className="tab-content" data-aos="fade-up" data-aos-delay="300">
 
-          <div class="tab-pane fade active show" id="menu-starters">
+          <div className="tab-pane fade active show" id="menu-starters">
 
-            <div class="tab-header text-center">
+            <div className="tab-header text-center">
               
               <h3 style={{color:"brown",fontWeight:"1000"}}>Products</h3>
             </div>
 
-            <div class="row gy-5" >
+            <div className="row gy-5" >
 
-              <div class="col-lg-4 menu-item" style={{border:"2px solid #cbcbcb",boxShadow:"10px"}}>
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="https://m.media-amazon.com/images/I/81mus9cBkrL._SX679_.jpg" class="menu-img img-fluid" alt=""/></a>
+              <div className="col-lg-4 menu-item" style={{border:"2px solid #cbcbcb",boxShadow:"10px"}}>
+                <a href="assets/img/menu/menu-item-1.png" className="glightbox"><img src="https://m.media-amazon.com/images/I/81mus9cBkrL._SX679_.jpg" className="menu-img img-fluid" alt=""/></a>
                 <h4>Stayfree Secure Pads</h4>
-                <p class="ingredients">
+                <p className="ingredients">
                   Set of 30- Keeps away germs, wetness and odour
                 </p>
-                <p class="price">
+                <p className="price">
                   ₹300
                 </p>
               </div>
 
-              <div class="col-lg-4 menu-item"style={{border:"2px solid #cbcbcb"}}>
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="https://m.media-amazon.com/images/I/61x4FpHeBfL._SL1500_.jpg" class="menu-img img-fluid" alt=""/></a>
+              <div className="col-lg-4 menu-item"style={{border:"2px solid #cbcbcb"}}>
+                <a href="assets/img/menu/menu-item-2.png" className="glightbox"><img src="https://m.media-amazon.com/images/I/61x4FpHeBfL._SL1500_.jpg" className="menu-img img-fluid" alt=""/></a>
                 <h4>Sirona Collapsible Silicone Cup </h4>
-                <p class="ingredients">
+                <p className="ingredients">
                 Foldable Sterilizing Container Cup for Menstrual Cups -Pack of 1 Unit | Microwave Friendly | Kills 99% of Germs | Menstrual Cup Sterilizer,Blue                </p>
-                <p class="price">
+                <p className="price">
                 ₹200
                 </p>
               </div>
 
-              <div class="col-lg-4 menu-item"style={{border:"2px solid #cbcbcb"}}>
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="https://m.media-amazon.com/images/I/513Rz17PlNL._SL1080_.jpg" class="menu-img img-fluid" alt=""/></a>
+              <div className="col-lg-4 menu-item"style={{border:"2px solid #cbcbcb"}}>
+                <a href="assets/img/menu/menu-item-3.png" className="glightbox"><img src="https://m.media-amazon.com/images/I/513Rz17PlNL._SL1080_.jpg" className="menu-img img-fluid" alt=""/></a>
                 <h4>Sirona Natural Menstrual Cup Wash</h4>
-                <p class="ingredients">
+                <p className="ingredients">
 
             100 ml with Rose Fragrance to Wash your Period Cup in a Hygienic Way                </p>
-                <p class="price">
+                <p className="price">
                 ₹100
                 </p>
               </div>
@@ -166,16 +166,16 @@ const Home = () => {
 
 
 
-    <section id="features" class="features" style={{marginTop:"4rem",marginBottom:"2rem",background:"white"}}>
-      <div class="container">
+    <section id="features" className="features" style={{marginTop:"4rem",marginBottom:"2rem",background:"white"}}>
+      <div className="container">
 
 
-    <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/about.png" class="img-fluid" alt=""/>
+    <div className="row gy-4 align-items-center features-item" data-aos="fade-up">
+          <div className="col-md-5 order-1 order-md-2">
+            <img src="assets/img/about.png" className="img-fluid" alt=""/>
           </div>
-          <div class="col-md-7 order-2 order-md-1">
-            <h2 class="million" style={{textAlign:"left",marginLeft:"171px",fontWeight:"1000"}}>About Us</h2>
+          <div className="col-md-7 order-2 order-md-1">
+            <h2 className="million" style={{textAlign:"left",marginLeft:"171px",fontWeight:"1000"}}>About Us</h2>
             
             <p style={{maxWidth:"500px",textAlign:"center",color:"grey"}}>
              
@@ -194,12 +194,12 @@ Our team of passionate professionals is driven by a shared vision to make this p
 
 
 
-     <footer id="footer" class="footer">
+     <footer id="footer" className="footer">
 
-<div class="container">
-  <div class="row gy-3">
-    <div class="col-lg-3 col-md-6 d-flex">
-      <i class="bi bi-geo-alt icon"></i>
+<div className="container">
+  <div className="row gy-3">
+    <div className="col-lg-3 col-md-6 d-flex">
+      <i className="bi bi-geo-alt icon"></i>
       <div>
         <h4>Address</h4>
         <p>
@@ -210,8 +210,8 @@ Our team of passionate professionals is driven by a shared vision to make this p
 
     </div>
 
-    <div class="col-lg-3 col-md-6 footer-links d-flex">
-      <i class="bi bi-telephone icon"></i>
+    <div className="col-lg-3 col-md-6 footer-links d-flex">
+      <i className="bi bi-telephone icon"></i>
       <div>
         <h4>Reservations</h4>
         <p>
@@ -221,8 +221,8 @@ Our team of passionate professionals is driven by a shared vision to make this p
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-6 footer-links d-flex">
-      <i class="bi bi-clock icon"></i>
+    <div className="col-lg-3 col-md-6 footer-links d-flex">
+      <i className="bi bi-clock icon"></i>
       <div>
         <h4>Service Hours</h4>
         <p>
@@ -232,24 +232,24 @@ Our team of passionate professionals is driven by a shared vision to make this p
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-6 footer-links">
+    <div className="col-lg-3 col-md-6 footer-links">
       <h4>Follow Us</h4>
-      <div class="social-links d-flex">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <div className="social-links d-flex">
+        <a href="#/" className="twitter"><i className="bi bi-twitter"></i></a>
+        <a href="#/" className="facebook"><i className="bi bi-facebook"></i></a>
+        <a href="#/" className="instagram"><i className="bi bi-instagram"></i></a>
+        <a href="#/" className="linkedin"><i className="bi bi-linkedin"></i></a>
       </div>
     </div>
 
   </div>
 </div>
 
-<div class="container">
-  <div class="copyright">
+<div className="container">
+  <div className="copyright">
     &copy; Copyright <strong><span>Menstrual Mavericks</span></strong>. All Rights Reserved
   </div>
-  <div class="credits">
+  <div className="credits">
     Designed by <a href="https://bootstrapmade.com/">Team Menstrual Mavericks</a>
   </div>
 </div>

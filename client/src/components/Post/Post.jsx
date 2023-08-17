@@ -17,25 +17,25 @@ const Post = () => {
     setusercom("");
   };
   return (
-    <main id="main" class="main">
+    <main id="main" className="main">
       <div className="post" style={{ marginTop: "2rem", marginBottom: "2rem" }}>
         <div className="container" style={{ marginBottom: "2rem" }}>
-          <div class="blog-container" style={{ maxWidth: "40rem" }}>
-            <div class="blog-header">
-              <div class="blog-cover">
-                <div class="blog-author">
+          <div className="blog-container" style={{ maxWidth: "40rem" }}>
+            <div className="blog-header">
+              <div className="blog-cover">
+                <div className="blog-author">
                   <h4>User 1</h4>
                 </div>
               </div>
             </div>
 
-            <div class="blog-body">
-              <div class="blog-title">
+            <div className="blog-body">
+              <div className="blog-title">
                 <h4>
                   <a href="#/">Status of menstruation in Germany</a>
                 </h4>
               </div>
-              <div class="blog-summary">
+              <div className="blog-summary">
                 <p>
                 With the report “Menstruation im Fokus”, Plan International Germany and WASH United are publishing the first representative data on the state of menstruation in Germany.
 
@@ -46,7 +46,7 @@ What we found is shocking.
 🩸 For 23%, the monthly expenses for period products represent a financial burden. 12% uses period products longer than they should to reduce costs, thereby risking infections.</p>
                 </p>
               </div>
-              <div class="blog-tags">
+              <div className="blog-tags">
                 <ul>
                   <div
                     className="usericon"
@@ -56,7 +56,7 @@ What we found is shocking.
                       data-tooltip-id="my-tooltip"
                       data-tooltip-content="Up Vote"
                     >
-                      <i class="bi bi-arrow-up-square" id="up"></i>
+                      <i className="bi bi-arrow-up-square" id="up"></i>
                     </li>
                     <li style={{ marginLeft: "0px" }}>
                       <p>69</p>
@@ -65,7 +65,7 @@ What we found is shocking.
                       data-tooltip-id="my-tooltip"
                       data-tooltip-content="Down Vote"
                     >
-                      <i class="bi bi-arrow-down-square" id="down"></i>
+                      <i className="bi bi-arrow-down-square" id="down"></i>
                     </li>
 
                     <div className="accordion-header" onClick={toggleAccordion}>
@@ -79,7 +79,7 @@ What we found is shocking.
                           data-tooltip-id="my-tooltip"
                           data-tooltip-content="Comment"
                         >
-                          <i class="bi bi-chat-left-text" id="com"></i>
+                          <i className="bi bi-chat-left-text" id="com"></i>
                         </li>
                       </div>
                     </div>
@@ -92,19 +92,19 @@ What we found is shocking.
                       data-tooltip-id="my-tooltip"
                       data-tooltip-content="Report!"
                     >
-                      <i class="bi bi-exclamation-octagon" id="rep"></i>
+                      <i className="bi bi-exclamation-octagon" id="rep"></i>
                     </li>
                     <li
                       data-tooltip-id="my-tooltip"
                       data-tooltip-content="Block"
                     >
-                      <i class="bi bi-cone-striped" id="block"></i>
+                      <i className="bi bi-cone-striped" id="block"></i>
                     </li>
                     <li
                       data-tooltip-id="my-tooltip"
                       data-tooltip-content="Delete"
                     >
-                      <i class="bi bi-trash" id="del"></i>
+                      <i className="bi bi-trash" id="del"></i>
                     </li>
                   </div>
                 </ul>
@@ -140,7 +140,7 @@ What we found is shocking.
                             }}
                           >
                             <i
-                              class="bi bi-cursor-fill"
+                              className="bi bi-cursor-fill"
                               style={{ fontSize: "20px", color: "#4154f1" }}
                             ></i>
                           </button>

@@ -36,7 +36,7 @@ const Comment = ({ Comment, Idname }) => {
           }}
         >
           <div style={{ fontSize: "19px", color: "grey" }}>
-            <i class="bi bi-arrow-up-square" id="up"></i>
+            <i className="bi bi-arrow-up-square" id="up"></i>
           </div>
           <div
             style={{
@@ -51,7 +51,7 @@ const Comment = ({ Comment, Idname }) => {
           </div>
 
           <div style={{ fontSize: "19px", color: "grey" }}>
-            <i class="bi bi-arrow-down-square" id="down"></i>
+            <i className="bi bi-arrow-down-square" id="down"></i>
           </div>
         </div>
       </div>

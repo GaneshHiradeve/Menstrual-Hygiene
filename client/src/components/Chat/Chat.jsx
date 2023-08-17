@@ -19,7 +19,7 @@ const Chat = () => {
 						</div>
 					</div>
 
-					<a href="#" class="list-group-item list-group-item-action border-0">
+					<a href="#/" class="list-group-item list-group-item-action border-0">
 						<div class="badge bg-success float-right">5</div>
 						<div class="d-flex align-items-start">
 							<img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="rounded-circle mr-1" alt="Vanessa Tucker" width="40" height="40"/>
@@ -29,7 +29,7 @@ const Chat = () => {
 							</div>
 						</div>
 					</a>
-					<a href="#" class="list-group-item list-group-item-action border-0">
+					<a href="#/" class="list-group-item list-group-item-action border-0">
 						<div class="badge bg-success float-right">2</div>
 						<div class="d-flex align-items-start">
 							<img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="William Harris" width="40" height="40"/>
@@ -39,7 +39,7 @@ const Chat = () => {
 							</div>
 						</div>
 					</a>
-					<a href="#" class="list-group-item list-group-item-action border-0">
+					<a href="#/" class="list-group-item list-group-item-action border-0">
 						<div class="d-flex align-items-start">
 							<img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="40" height="40"/>
 							<div class="flex-grow-1 ml-3">
@@ -48,7 +48,7 @@ const Chat = () => {
 							</div>
 						</div>
 					</a>
-					<a href="#" class="list-group-item list-group-item-action border-0">
+					<a href="#/" class="list-group-item list-group-item-action border-0">
 						<div class="d-flex align-items-start">
 							<img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="rounded-circle mr-1" alt="Christina Mason" width="40" height="40"/>
 							<div class="flex-grow-1 ml-3">
@@ -57,7 +57,7 @@ const Chat = () => {
 							</div>
 						</div>
 					</a>
-					<a href="#" class="list-group-item list-group-item-action border-0">
+					<a href="#/" class="list-group-item list-group-item-action border-0">
 						<div class="d-flex align-items-start">
 							<img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="rounded-circle mr-1" alt="Fiona Green" width="40" height="40"/>
 							<div class="flex-grow-1 ml-3">
@@ -66,7 +66,7 @@ const Chat = () => {
 							</div>
 						</div>
 					</a>
-					<a href="#" class="list-group-item list-group-item-action border-0">
+					<a href="#/" class="list-group-item list-group-item-action border-0">
 						<div class="d-flex align-items-start">
 							<img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="Doris Wilder" width="40" height="40"/>
 							<div class="flex-grow-1 ml-3">
@@ -75,7 +75,7 @@ const Chat = () => {
 							</div>
 						</div>
 					</a>
-					<a href="#" class="list-group-item list-group-item-action border-0">
+					<a href="#/" class="list-group-item list-group-item-action border-0">
 						<div class="d-flex align-items-start">
 							<img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="rounded-circle mr-1" alt="Haley Kennedy" width="40" height="40"/>
 							<div class="flex-grow-1 ml-3">
@@ -84,7 +84,7 @@ const Chat = () => {
 							</div>
 						</div>
 					</a>
-					<a href="#" class="list-group-item list-group-item-action border-0">
+					<a href="#/" class="list-group-item list-group-item-action border-0">
 						<div class="d-flex align-items-start">
 							<img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Jennifer Chang" width="40" height="40"/>
 							<div class="flex-grow-1 ml-3">

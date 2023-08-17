@@ -2,208 +2,208 @@ import React from "react";
 import "./dashboard.css";
 const Dashboard = () => {
   return (
-    <main id="main" class="main">
-      <div class="pagetitle">
+    <main id="main" className="main">
+      <div className="pagetitle">
         <h1>Dashboard</h1>
         <nav>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item">
               <a href="index.html">Home</a>
             </li>
-            <li class="breadcrumb-item active">Dashboard</li>
+            <li className="breadcrumb-item active">Dashboard</li>
           </ol>
         </nav>
       </div>
 
-      <section class="section dashboard">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card sales-card">
-                  <div class="filter">
-                    <a class="icon" href="w///" data-bs-toggle="dropdown">
-                      <i class="bi bi-three-dots"></i>
+      <section className="section dashboard">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="row">
+              <div className="col-xxl-4 col-md-6">
+                <div className="card info-card sales-card">
+                  <div className="filter">
+                    <a className="icon" href="w///" data-bs-toggle="dropdown">
+                      <i className="bi bi-three-dots"></i>
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                      <li class="dropdown-header text-start">
+                    <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                      <li className="dropdown-header text-start">
                         <h6>Filter</h6>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="w///">
+                        <a className="dropdown-item" href="w///">
                           Today
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="w///">
+                        <a className="dropdown-item" href="w///">
                           This Month
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="w///">
+                        <a className="dropdown-item" href="w///">
                           This Year
                         </a>
                       </li>
                     </ul>
                   </div>
 
-                  <div class="card-body">
-                    <h4 class="card-title">
+                  <div className="card-body">
+                    <h4 className="card-title">
                       Sales <span>| Today</span>
                     </h4>
 
-                    <div class="d-flex align-items-center">
-                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                        <i class="bi bi-cart"></i>
+                    <div className="d-flex align-items-center">
+                      <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i className="bi bi-cart"></i>
                       </div>
-                      <div class="ps-3">
+                      <div className="ps-3">
                         <h6>144</h6>
-                        <span class="text-success small pt-1 fw-bold">
+                        <span className="text-success small pt-1 fw-bold">
                           12%
                         </span>{" "}
-                        <span class="text-muted small pt-2 ps-1">increase</span>
+                        <span className="text-muted small pt-2 ps-1">increase</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card revenue-card">
-                  <div class="filter">
-                    <a class="icon" href="w//" data-bs-toggle="dropdown">
-                      <i class="bi bi-three-dots"></i>
+              <div className="col-xxl-4 col-md-6">
+                <div className="card info-card revenue-card">
+                  <div className="filter">
+                    <a className="icon" href="w//" data-bs-toggle="dropdown">
+                      <i className="bi bi-three-dots"></i>
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                      <li class="dropdown-header text-start">
+                    <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                      <li className="dropdown-header text-start">
                         <h6>Filter</h6>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="w//">
+                        <a className="dropdown-item" href="w//">
                           Today
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="w//">
+                        <a className="dropdown-item" href="w//">
                           This Month
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="w//">
+                        <a className="dropdown-item" href="w//">
                           This Year
                         </a>
                       </li>
                     </ul>
                   </div>
 
-                  <div class="card-body">
-                    <h4 class="card-title">
+                  <div className="card-body">
+                    <h4 className="card-title">
                       Revenue <span>| This Month</span>
                     </h4>
 
-                    <div class="d-flex align-items-center">
-                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                        <i class="bi bi-currency-dollar"></i>
+                    <div className="d-flex align-items-center">
+                      <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i className="bi bi-currency-dollar"></i>
                       </div>
-                      <div class="ps-3">
+                      <div className="ps-3">
                         <h6>3,264</h6>
-                        <span class="text-success small pt-1 fw-bold">
+                        <span className="text-success small pt-1 fw-bold">
                           8%
                         </span>{" "}
-                        <span class="text-muted small pt-2 ps-1">increase</span>
+                        <span className="text-muted small pt-2 ps-1">increase</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-xxl-4 col-xl-12">
-                <div class="card info-card customers-card">
-                  <div class="filter">
-                    <a class="icon" href="w//" data-bs-toggle="dropdown">
-                      <i class="bi bi-three-dots"></i>
+              <div className="col-xxl-4 col-xl-12">
+                <div className="card info-card customers-card">
+                  <div className="filter">
+                    <a className="icon" href="w//" data-bs-toggle="dropdown">
+                      <i className="bi bi-three-dots"></i>
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                      <li class="dropdown-header text-start">
+                    <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                      <li className="dropdown-header text-start">
                         <h6>Filter</h6>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="w//">
+                        <a className="dropdown-item" href="w//">
                           Today
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="w//">
+                        <a className="dropdown-item" href="w//">
                           This Month
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="w//">
+                        <a className="dropdown-item" href="w//">
                           This Year
                         </a>
                       </li>
                     </ul>
                   </div>
 
-                  <div class="card-body">
-                    <h4 class="card-title">
+                  <div className="card-body">
+                    <h4 className="card-title">
                       Customers <span>| This Year</span>
                     </h4>
 
-                    <div class="d-flex align-items-center">
-                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                        <i class="bi bi-people"></i>
+                    <div className="d-flex align-items-center">
+                      <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i className="bi bi-people"></i>
                       </div>
-                      <div class="ps-3">
+                      <div className="ps-3">
                         <h6>1244</h6>
-                        <span class="text-danger small pt-1 fw-bold">
+                        <span className="text-danger small pt-1 fw-bold">
                           12%
                         </span>{" "}
-                        <span class="text-muted small pt-2 ps-1">decrease</span>
+                        <span className="text-muted small pt-2 ps-1">decrease</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-12">
-                <div class="card recent-sales overflow-auto">
-                  <div class="filter">
-                    <a class="icon" href="w" data-bs-toggle="dropdown">
-                      <i class="bi bi-three-dots"></i>
+              <div className="col-12">
+                <div className="card recent-sales overflow-auto">
+                  <div className="filter">
+                    <a className="icon" href="w" data-bs-toggle="dropdown">
+                      <i className="bi bi-three-dots"></i>
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                      <li class="dropdown-header text-start">
+                    <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                      <li className="dropdown-header text-start">
                         <h6>Filter</h6>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="w">
+                        <a className="dropdown-item" href="w">
                           Today
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="w">
+                        <a className="dropdown-item" href="w">
                           This Month
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="w">
+                        <a className="dropdown-item" href="w">
                           This Year
                         </a>
                       </li>
                     </ul>
                   </div>
 
-                  <div class="card-body">
-                    <h5 class="card-title">
+                  <div className="card-body">
+                    <h5 className="card-title">
                       Recent Sales <span>| Today</span>
                     </h5>
 
-                    <table class="table table-borderless datatable">
+                    <table className="table table-borderless datatable">
                       <thead>
                         <tr>
                           <th scope="col">w</th>
@@ -220,13 +220,13 @@ const Dashboard = () => {
                           </th>
                           <td>Brandon Jacob</td>
                           <td>
-                            <a href="w" class="text-primary">
+                            <a href="w" className="text-primary">
                               At praesentium minu
                             </a>
                           </td>
                           <td>64</td>
                           <td>
-                            <span class="badge bg-success">Approved</span>
+                            <span className="badge bg-success">Approved</span>
                           </td>
                         </tr>
                         <tr>
@@ -235,13 +235,13 @@ const Dashboard = () => {
                           </th>
                           <td>Bridie Kessler</td>
                           <td>
-                            <a href="w" class="text-primary">
+                            <a href="w" className="text-primary">
                               Blanditiis dolor omnis similique
                             </a>
                           </td>
                           <td>47</td>
                           <td>
-                            <span class="badge bg-warning">Pending</span>
+                            <span className="badge bg-warning">Pending</span>
                           </td>
                         </tr>
                         <tr>
@@ -250,13 +250,13 @@ const Dashboard = () => {
                           </th>
                           <td>Ashleigh Langosh</td>
                           <td>
-                            <a href="w" class="text-primary">
+                            <a href="w" className="text-primary">
                               At recusandae consectetur
                             </a>
                           </td>
                           <td>147</td>
                           <td>
-                            <span class="badge bg-success">Approved</span>
+                            <span className="badge bg-success">Approved</span>
                           </td>
                         </tr>
                         <tr>
@@ -265,13 +265,13 @@ const Dashboard = () => {
                           </th>
                           <td>Angus Grady</td>
                           <td>
-                            <a href="w" class="text-primar">
+                            <a href="w" className="text-primar">
                               Ut voluptatem id earum et
                             </a>
                           </td>
                           <td>67</td>
                           <td>
-                            <span class="badge bg-danger">Rejected</span>
+                            <span className="badge bg-danger">Rejected</span>
                           </td>
                         </tr>
                         <tr>
@@ -280,13 +280,13 @@ const Dashboard = () => {
                           </th>
                           <td>Raheem Lehner</td>
                           <td>
-                            <a href="w" class="text-primary">
+                            <a href="w" className="text-primary">
                               Sunt similique distinctio
                             </a>
                           </td>
                           <td>165</td>
                           <td>
-                            <span class="badge bg-success">Approved</span>
+                            <span className="badge bg-success">Approved</span>
                           </td>
                         </tr>
                       </tbody>
